@@ -1,7 +1,7 @@
 import React from "react";
-import Countries from "../components/Countries";
-import Logo from "../components/Logo";
-import Nav from "../components/Nav";
+import Countries from "../components/main/Countries";
+import Logo from "../components/header/Logo";
+import Nav from "../components/header/Nav";
 const Home = () => {
   return (
     <div>

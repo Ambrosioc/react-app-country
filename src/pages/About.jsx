@@ -1,6 +1,6 @@
 import React from "react";
-import Logo from "../components/Logo";
-import Nav from "../components/Nav";
+import { Logo, Nav } from "../components/header";
+
 const About = () => {
   return (
     <div>
