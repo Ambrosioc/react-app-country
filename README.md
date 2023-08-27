@@ -33,4 +33,4 @@ Les contributions sont les bienvenues ! Si vous souhaitez ajouter des fonctionna
 
 ---
 
-Ce projet a été inspiré par une vidéo tutorielle de [FromScratch - Le développement Web de zéro](https://www.youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw) et a été créé par [Votre Nom]. Il illustre comment créer une application de recherche de pays du monde en utilisant React et l'API Rest Countries.
+Ce projet a été inspiré par une vidéo tutorielle de [FromScratch - Le développement Web de zéro](https://www.youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw) et a été créé par [CAZIMIRA Ambro](https://github.com/Ambrosioc) . Il illustre comment créer une application de recherche de pays du monde en utilisant React et l'API Rest Countries.
