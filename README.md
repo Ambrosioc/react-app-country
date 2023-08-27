@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+# Projet d'Application des Pays du Monde en React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Ce projet est une application interactive des pays du monde, créée en utilisant React et en se basant sur l'API [Rest Countries](https://restcountries.com). L'objectif de cette application est de permettre aux utilisateurs de rechercher et d'afficher des informations détaillées sur différents pays, telles que leur drapeau, leur capitale, leur population, leur langue et bien plus encore.
 
-## Available Scripts
+## Fonctionnalités Principales
 
-In the project directory, you can run:
+- **Exploration Facilitée :** L'application permet aux utilisateurs de rechercher des pays par leur nom ou de parcourir la liste complète des pays du monde.
 
-### `npm start`
+- **Détails des Pays :** Chaque pays affiche des informations importantes telles que la population, la superficie, la monnaie utilisée, les langues parlées et bien d'autres détails.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Affichage des Drapeaux :** L'application utilise l'API Rest Countries pour afficher les drapeaux officiels de chaque pays.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Tri et Filtrage :** Les utilisateurs peuvent trier les pays par nom, population, superficie, etc., et appliquer des filtres pour afficher uniquement les pays répondant à certaines conditions.
 
-### `npm test`
+## Capture d'Écran
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Capture d'écran de l'application des pays du monde](src/assets/img/screenshot.png)
 
-### `npm run build`
+## Mise en Route
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clonez ce dépôt sur votre machine locale.
+2. Installez les dépendances en utilisant la commande `yarn install`.
+3. Lancez l'application avec `yarn start`.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Ressources Utilisées
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [API Rest Countries](https://restcountries.com) pour les données sur les pays du monde.
+- [React](https://reactjs.org/) pour la construction de l'interface utilisateur interactive.
 
-### `npm run eject`
+## Contributions
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Les contributions sont les bienvenues ! Si vous souhaitez ajouter des fonctionnalités, corriger des bugs ou améliorer l'expérience utilisateur, n'hésitez pas à soumettre une demande d'extraction.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Ce projet a été inspiré par une vidéo tutorielle de [FromScratch - Le développement Web de zéro](https://www.youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw) et a été créé par [Votre Nom]. Il illustre comment créer une application de recherche de pays du monde en utilisant React et l'API Rest Countries.
