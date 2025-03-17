@@ -1,0 +1,9 @@
+.layout {
+  min-height: 100vh;
+  background: linear-gradient(135deg, $white, darken($white, 5%));
+  
+  main {
+    width: 100%;
+    padding: 20px;
+  }
+}

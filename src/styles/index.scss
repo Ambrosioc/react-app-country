@@ -3,3 +3,23 @@
 @import "./components/logo";
 @import "./components/countries";
 @import "./components/card";
+@import "./components/layout";
+@import "./components/countryDetails";
+
+.about {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  
+  h1 {
+    color: $color-1;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+  }
+  
+  p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+    color: $color-3;
+  }
+}
