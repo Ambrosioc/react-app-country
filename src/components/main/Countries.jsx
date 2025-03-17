@@ -42,7 +42,6 @@ const Countries = () => {
       )}
       <ul>
         {data
-
           .filter((country) => country.continents[0].includes(selectedRadio))
           .sort((a, b) => b.population - a.population)
           .slice(0, rangeValue)
